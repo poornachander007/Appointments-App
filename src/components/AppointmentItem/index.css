@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.appointItem {
+  border: 1px solid rgb(48, 47, 47);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 1px #171717;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.nameAndStar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointmentName {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Georgia';
+}
+
+.starImg {
+  width: 30px;
+  height: 30px;
+}
+
+.date {
+  font-size: 15px;
+  color: rgb(31, 30, 30);
+}
+
+.starButton {
+  border: none;
+  background-color: transparent;
+}
